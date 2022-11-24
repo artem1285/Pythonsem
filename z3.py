@@ -4,3 +4,5 @@
 n = int(input('Введите n '))
 my_list = list(range(-n,n+1))
 print(my_list)
+print( *my_list, sep=',') # * мы распоковываем my_list и он превращается просто в значения
+# а sep=',' это сепоратор который ставит ,
